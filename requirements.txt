@@ -1,0 +1,14 @@
+# Core data/ML dependencies
+nltk>=3.8
+numpy>=1.24
+pandas>=2.0
+
+# LLM comparison (optional but recommended)
+transformers>=4.30
+# torch or tensorflow is also needed at runtime for transformers;
+# install the appropriate variant for your hardware:
+#   pip install torch          (CPU / CUDA)
+#   pip install tensorflow     (alternative backend)
+
+# Testing
+pytest>=7.0
